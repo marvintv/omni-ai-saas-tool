@@ -36,7 +36,7 @@ Welcome to the repository for the Omni AI SaaS Platform, a fully-featured, scala
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git clone https://github.com/marvintv/omni-ai-saas-tool
 ```
 
 ### Install Dependencies

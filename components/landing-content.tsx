@@ -24,8 +24,8 @@ const testimonials = [
   {
     name: "Mary",
     avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    title: "College Student",
+    description: "The best in class, I am using this every day!",
   },
 ];
 

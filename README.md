@@ -1,54 +1,57 @@
-# Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023
 
-![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
+# Omni AI SaaS Platform with Next.js 13
+
+![Omni AI SaaS Platform Logo](https://i.imgur.com/YEsc6XO.png)
 
 
+Welcome to the repository for the Omni AI SaaS Platform, a fully-featured, scalable application built using Next.js 13, React, Tailwind CSS, Prisma, Stripe, and more. This platform serves as a comprehensive example of how to create a SaaS product offering a variety of AI-based tools.
 
-This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023.
+## 🌟 Features
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ffJ38dBzrlY)
+- 🎨 **Tailwind CSS Integration**: Beautiful UI with Tailwind's utility-first CSS framework
+- 🎥 **Dynamic Animations**: Eye-catching animations and effects using Tailwind
+- 📱 **Responsive Design**: Full mobile responsiveness
+- 🔒 **Clerk Authentication**: Support for Email, Google, and 9+ Social Logins
+- ✅ **Client-Side Validation**: Using `react-hook-form` for robust form handling
+- 🍞 **Toasts for Error Handling**: Utilizing `react-toast` for server error notifications
+- 🖼️ **Image Generation Tool**: Powered by OpenAI
+- 📹 **Video Generation Tool**: Powered by Replicate AI
+- 💬 **Conversation Generation Tool**: Powered by OpenAI
+- 🎵 **Music Generation Tool**: Powered by Replicate AI
+- 🔄 **Page Loading State**: Elegantly handle loading states
+- 💳 **Stripe Subscription**: Monthly subscription payments
+- 🆓 **Free Tier**: API request limiting for free-tier users
+- 🛠️ **API Route Handlers**: POST, DELETE, and GET routes with Next.js
+- 📦 **Server Data Fetching**: Direct database access in server components (Magic!)
+- 🔄 **Server-Client Relations**: Seamless interaction between Server and Child components
+- 🎯 **Reusable Layouts**: Easily reapply common UI layouts
+- 📂 **Structured Folders**: Organized Next.js 13 folder structure
 
-Features:
+## 📚 Prerequisites
 
-- Tailwind design
-- Tailwind animations and effects
-- Full responsiveness
-- Clerk Authentication (Email, Google, 9+ Social Logins)
-- Client form validation and handling using react-hook-form
-- Server error handling using react-toast
-- Image Generation Tool (Open AI)
-- Video Generation Tool (Replicate AI)
-- Conversation Generation Tool (Open AI)
-- Music Generation Tool (Replicate AI)
-- Page loading state
-- Stripe monthly subscription
-- Free tier with API limiting
-- How to write POST, DELETE, and GET routes in route handlers (app/api)
-- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
-- How to handle relations between Server and Child components!
-- How to reuse layouts
-- Folder structure in Next 13 App Router
+- Node.js v18.x.x installed
 
-### Prerequisites
+## ⚙️ Installation and Setup
 
-**Node version 18.x.x**
+### Clone the Repository
 
-### Cloning the repository
-
-```shell
+```bash
 git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
 ```
 
-### Install packages
+### Install Dependencies
 
-```shell
-npm i
+Navigate to the project directory and run:
+
+```bash
+npm install
 ```
 
-### Setup .env file
+### Configure Environment Variables
 
+Create a `.env` file at the root of the project and add the following:
 
-```js
+```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
@@ -68,28 +71,29 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
 
-### Setup Prisma
+### Initialize Prisma
 
-Add MySQL Database (I used PlanetScale)
+Setup your MySQL Database (For demonstration, PlanetScale is used):
 
-```shell
+```bash
 npx prisma db push
-
 ```
 
-### Start the app
+### Start the Development Server
 
-```shell
+```bash
 npm run dev
 ```
 
-## Available commands
+## 🎛️ Available npm Commands
 
-Running commands with npm `npm run [command]`
+| Command | Description                                    |
+| ------- | ---------------------------------------------- |
+| `dev`   | Launches the app in development mode            |
 
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
-# omni-sass-tool
-# omni-saas-tool
-# omni-ai-saas-tool
+---
+
+For more information and tutorials, please visit [our website](https://example.com).
+
+Feel free to contribute and submit issues or pull requests. Thank you for checking out the Omni AI SaaS Platform! 🚀
+````
